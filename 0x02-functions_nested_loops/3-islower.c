@@ -1,17 +1,14 @@
 #include "main.h"
 
 /**
- * print_alphabet - a function that prints the alphabet, in lowercase
- *
- * Return: Always 0 (Success)
+ * _islower - a function that checks for lowercase character
+ * @c: single letter input
+ * Return: 1 if int c is lowercase, 0 if otherwise
  */
-void print_alphabet(void)
+int _islower(int c)
 {
-	int n;
-
-	for (n = 'a'; n <= 'z'; n++)
-	{
-		_putchar(n);
-	}
-	_putchar('\n');
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
