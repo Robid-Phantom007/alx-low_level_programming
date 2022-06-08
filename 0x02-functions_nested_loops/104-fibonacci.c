@@ -20,7 +20,7 @@ int main(void)
 	{
 		printf(", %lu", q);
 		q = q + p;
-		p = o - p;
+		p = q - p;
 
 	}
 
