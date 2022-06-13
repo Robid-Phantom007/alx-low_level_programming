@@ -9,15 +9,15 @@
  *
  * Return: A pointer to the destination string @dest.
  */
-char *_strcpy(char *des, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int index = 0;
 
 	for (index = 0; src[index] != '\0'; index++)
 	{
-		des[index] = src[index];
+		dest[index] = src[index];
 	}
-	des[index] = '\0';
+	dest[index] = '\0';
 
-	return (des);
+	return (dest);
 }
