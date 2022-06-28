@@ -8,8 +8,8 @@
  *
  *
  * Return: If concatenation fails - NULL.
- * 	Otherwise - a pointer the newly-allocated space in memory
- * 		containing the concatenated strings.
+ *	 Otherwise - a pointer the newly-allocated space in memory
+ *		 containing the concatenated strings.
  */
 char *str_concat(char *s1, char *s2)
 {
